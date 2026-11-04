@@ -1,0 +1,13 @@
+# binarios compilados (gerados por make)
+bin/
+
+# Python
+__pycache__/
+*.pyc
+
+# editores / sistema
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
