@@ -6,7 +6,11 @@ impacto de interface de paralelização, escalonamento do OpenMP, tamanho de
 bloco CUDA, tamanho da malha e precisão numérica (`double`/`float`) sobre
 tempo, vazão (MFLOPS) e, na GPU, energia.
 
-> **Autores / disciplina / instituição:** _(preencher)_
+> Amanda Dantas, Bruna Surur Bergara, Luís Felipe Salgado Mitidieri, Rafaela de Paula Vilela, Thaís Melo
+
+> Programação Concorrente e Distribuída
+
+> UNIFESP - Universidade Fededral de São Paulo
 
 ## Versões
 
@@ -142,7 +146,4 @@ NVIDIA GeForce RTX 2050, WSL2 Ubuntu, CUDA 12.8).
   Não use `-D__MATH_FUNCTIONS_H__`: isso quebra `min`/`max`.
 - `nvidia-smi -c` **não** é contagem de amostras (é `--compute-mode`); os scripts não o usam.
 
-## Licença
 
-_(escolher uma licença antes de tornar o repositório público; sem licença, o
-código fica com todos os direitos reservados)_
